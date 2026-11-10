@@ -28,12 +28,12 @@ module.exports = {
 
       env: {
         NODE_ENV: "development",
-        HOST: "127.0.0.1",
+        HOST: "0.0.0.0",
         PORT: 6969,
       },
       env_production: {
         NODE_ENV: "production",
-        HOST: "127.0.0.1",
+        HOST: "0.0.0.0",
         PORT: 6969,
       },
     },
